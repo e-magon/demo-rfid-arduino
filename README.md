@@ -6,7 +6,12 @@
   - in modalità "serratura smart" simula una serratura che si apre avvicinando un tag RFID autorizzato (in questo caso l'apertura della serratura è simulata dall'accensione di un LED verde e da un singolo suono emesso dal cicalino. In caso di lettura di un tag non autorizzato, si accende il LED rosso e vengono emessi tre suoni distinti);
   - in modalità "clonatore" simula il dispositivo dell'attaccante che è in grado di leggere un tag RFID e clonare il contenuto su un altro tag.
 
+### Circuito:
 
-Risorse:
+![circuito](https://raw.githubusercontent.com/e-magon/demo-rfid-arduino/main/Immagine%20sketch.png)
+
+
+### Risorse:
+
 - https://www.mouser.com/datasheet/2/302/MF1S503x-89574.pdf
 - https://github.com/miguelbalboa/rfid
